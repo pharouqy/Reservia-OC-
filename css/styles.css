@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'ralewaythin';
+  src: url('./fonts/Raleway/raleway-variablefont_wght-webfont.eot');
+  src: url('./fonts/Raleway/raleway-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Raleway/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+       url('./fonts/Raleway/raleway-variablefont_wght-webfont.woff') format('woff'),
+       url('./fonts/Raleway/raleway-variablefont_wght-webfont.ttf') format('truetype'),
+       url('./fonts/Raleway/raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: 'ralewaythin', Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: auto 0px;
+}
+header,
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img-logo {
+  width: 150px;
+  margin: 35px;
+}
+.small-nav,
+.form {
+  display: flex;
+}
+.nav-item {
+  padding: 50px;
+  text-decoration: none;
+}
+.small-nav .nav-item:hover {
+  border-top: 2px solid blue;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container h1,
+.container p {
+  margin-left: 35px;
+  line-height: 10px;
+}
+.form {
+  margin-left: 35px;
+}
+.span-map, input[type="text"] {
+  padding: 15px;
+}
+input[type="submit"] {
+  padding: 17px;
+  margin-left: -5px;
+  border-radius: 0px 35px 35px 0px;
+  border: none;
+}
+.span-map {
+  border-radius: 35px 0px 0px 35px;
+  background-color: bisque;
+}
+input[type="text"] {
+    border: 2px solid #f0f0f0;
+}
