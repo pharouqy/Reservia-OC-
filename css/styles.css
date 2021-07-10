@@ -132,3 +132,11 @@ span.span-remarque {
   align-items: center;
   justify-content: center;
 }
+section {
+  margin-left: 35px;
+}
+.hebergement {
+  background-color: aqua;
+  border-radius: 50px;
+  padding: 1px 25px 10px 25px;
+}
