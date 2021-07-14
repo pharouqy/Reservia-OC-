@@ -203,3 +203,43 @@ span.span-chart {
   top: 25px;
   left: 315px;
 }
+.div-flex-last {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.column img {
+  width: 300px;
+  border-radius: 20px 20px 0px 0px;
+}
+.column2 img {
+  width: 280px;
+  height: 195px;
+  border-radius: 20px 20px 0px 0px;
+}
+.column2 {
+  margin: 0px 20px;
+}
+.column h3, .column2 h3 {
+  margin: 0px;
+  padding: 15px 0px 0px 0px;
+  background-color: #fff;
+  position: relative;
+  top: -3px;
+}
+.column {
+  border: 10px solid #fff;
+  box-shadow: 2px 5px 10px;
+  border-radius: 25px 25px 25px 25px;
+}
+.div-sub {
+  margin-bottom: 15px;
+  border: 10px solid #fff;
+  box-shadow: 2px 5px 10px;
+  border-radius: 25px;
+}
+.container-last h2 {
+  margin-left: 25px;
+}
