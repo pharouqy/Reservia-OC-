@@ -243,3 +243,43 @@ span.span-chart {
 .container-last h2 {
   margin-left: 25px;
 }
+/*mobile*/
+@media all and (max-width: 375px) {
+  .container > h1 {
+    line-height: 1;
+  }
+}
+/*tablet*/
+@media all and (max-width: 768px) {
+   .container > h1 {
+    line-height: 1;
+    width: 350px;
+  }
+  section {
+    justify-content: stretch;
+    width: 100%;
+  }
+  span.span-chart {
+    top: 25px;
+    left: 700px;
+  }
+  .populaire {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+
+  }
+  article.card-aside {
+    width: 55%;
+  }
+  .hebergement {
+    width: 100%;
+  }
+  article.card {
+    width: 315px;
+  }
+  .card-dwon {
+    width: 280px;
+}
