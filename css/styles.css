@@ -248,6 +248,16 @@ span.span-chart {
   .container > h1 {
     line-height: 1;
   }
+  .small-nav + a {
+      color: #0065fc;
+      display: block;
+      position: absolute;
+      top: -125px;
+      left: 205px;
+  }
+  .nav {
+    position: relative;
+  }
 }
 /*tablet*/
 @media all and (max-width: 768px) {
@@ -261,7 +271,7 @@ span.span-chart {
   }
   span.span-chart {
     top: 25px;
-    left: 700px;
+    /*left: 700px;*/
   }
   .populaire {
     width: 100%;
